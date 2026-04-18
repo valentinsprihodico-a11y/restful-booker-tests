@@ -1,9 +1,10 @@
 Структура папок
 Серийный номер тома: AEFE-74B0
 C:.
+|   rename.cmd
 |   tree
 |   
-+---.gitHub
++---.github
 |   \---workflows
 |           api-tests.yml
 |           
