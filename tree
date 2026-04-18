@@ -1,0 +1,23 @@
+Структура папок
+Серийный номер тома: AEFE-74B0
+C:.
+|   tree
+|   
++---.gitHub
+|   \---workflows
+|           api-tests.yml
+|           
++---collections
+|       Restful_Booker_Collection.postman_collection.json
+|       
++---docs
+|       man
+|       
++---environments
+|       environment.postman_environment.json
+|       
+\---scripts
+        add-prj-to-remote.cmd
+        init-git-locally.cmd
+        run-newman-with-reports.cmd
+        
