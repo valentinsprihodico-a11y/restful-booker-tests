@@ -20,6 +20,14 @@ jobs:
         with:
           node-version: 18
 
+
+      - name: Debug collections file (CAT)
+        run: cat collections/Restful_Booker_Collection.postman_collection.json
+
+      - name: Debug environment file (CAT)
+        run: cat environments/environment.postman_environment.json
+
+
       - name: Install Newman
         run: npm install -g newman
 
