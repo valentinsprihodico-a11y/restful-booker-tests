@@ -22,6 +22,6 @@ jobs:
 
       - name: Run tests
         run: |
-          newman run postman/collections/restful-booker.collection.json \
-          -e postman/environments/dev.environment.json \
+          newman run collections/Restful_Booker_Collection.postman_collection.json \
+          -e environments/environment.postman_environment.json \
           -r cli
