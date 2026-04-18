@@ -1,0 +1,4 @@
+node.js 
+#instsll app
+npm install -g newman
+npm install -g newman-reporter-html
